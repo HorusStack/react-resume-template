@@ -19,7 +19,7 @@ class Header extends Component {
       <header id="home">
 	<div class="video-wrapper">
   <video playsinline autoplay muted loop poster={banner}>
-    <source src={video} type="video/mp4">
+    <source src={video} type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
