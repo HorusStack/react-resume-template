@@ -17,12 +17,13 @@ class Header extends Component {
 
     return (
       <header id="home">
-	<div class="video-wrapper">
+	<!--- 
+	    <div class="video-wrapper">
   <video playsinline autoplay muted loop poster="images/header-background.jpg">
     <source src="images/bg_video_web.mp4" type="video/mp4" />
     Your browser does not support the video tag.
-  </video>
-</div>
+  </video> 
+</div> -->
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
