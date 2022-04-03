@@ -8,6 +8,8 @@ class Header extends Component {
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
+      var banner= "images/"+this.props.data.banner;
+      var video= "images/"+this.props.data.video
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -16,8 +18,8 @@ class Header extends Component {
     return (
       <header id="home">
 	<div class="video-wrapper">
-  <video playsinline autoplay muted loop poster="../../images/overlay-bg.png">
-    <source src="../../images/bg_video_web.mp4" type="video/mp4">
+  <video playsinline autoplay muted loop poster={banner}>
+    <source src={video} type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
