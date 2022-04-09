@@ -11,7 +11,7 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var banner= "images/"+this.props.data.banner;
-      var video= "images/bg_video_web.mp4";
+      var video= "images/"+this.props.data.video";
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
