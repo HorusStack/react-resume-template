@@ -17,7 +17,9 @@ class Header extends Component {
 
     return (
       <header id="home">
-
+	<video className="bgvideo" loop autoPlay>
+ 		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4" />
+	 </video>
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -35,9 +37,7 @@ class Header extends Component {
       </nav>
 
       <div className="row banner">
-	    <video className="bgvideo" loop autoplay>
- 		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4" />
-	    </video>
+	    
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
