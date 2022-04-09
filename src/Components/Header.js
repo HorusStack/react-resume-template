@@ -21,7 +21,7 @@ class Header extends Component {
       <header id="home">
 	<VideoPlayer
         className="video bgvideo" 
-        src={ "https://www.youtube.com/embed/m8pbOI-3Rmk" }
+        src={ "https://player.vimeo.com/video/697664039?h=379a7b8ed5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" }
         autoPlay={true}
         muted={true}
       />
