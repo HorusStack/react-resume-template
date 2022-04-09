@@ -35,7 +35,7 @@ class Header extends Component {
       </nav>
 
       <div className="row banner">
-	    <video loop autoplay>
+	    <video className="bgvideo" loop autoplay>
  		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4" />
 	    </video>
          <div className="banner-text">
