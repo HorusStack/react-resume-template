@@ -22,7 +22,7 @@ class Header extends Component {
       <header id="home">
 	<VideoPlayer
         className="video bgvideo" 
-        src={ video }
+        src={ videobg }
         autoPlay={true}
         muted={true}
       />
