@@ -180,9 +180,7 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
 .bgvideo {
-	width: 100%;
-	z-index: -1;
-	-webkit-background-size: cover !important;
+	z-index: -1;	
 }
 /* ------------------------------------------------------------------ */
 /* c. About Section
