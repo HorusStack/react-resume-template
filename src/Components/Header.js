@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import VideoPlayer from "react-background-video-player";
-import videobg from "images/bg_video_web.mp4";
+import videobg from "bg_video_web.mp4";
 
 
 class Header extends Component {
