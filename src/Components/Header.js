@@ -21,7 +21,7 @@ class Header extends Component {
     return (
       <header id="home">
 	<video className='videoTag' autoPlay loop muted>
-    <source src={video} type='video/mp4' />
+    <source src={videobg} type='video/mp4' />
 </video>
       <nav id="nav-wrap">
 
