@@ -35,6 +35,17 @@ class Header extends Component {
       </nav>
 
       <div className="row banner">
+	    <video style="width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+ 		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+	    </video>
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
