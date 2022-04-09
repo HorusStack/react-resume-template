@@ -22,7 +22,7 @@ class Header extends Component {
       <header id="home">
 	<VideoPlayer
         className="video bgvideo" 
-        src={ "https://www.youtube.com/embed/m8pbOI-3Rmk?autoplay=1&origin=https://resume-git-video-horusstack.vercel.app" }
+        src={ "https://www.youtube.com/embed/m8pbOI-3Rmk?autoplay=1" }
         autoPlay={true}
         muted={true}
       />
