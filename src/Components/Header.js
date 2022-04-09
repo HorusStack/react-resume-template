@@ -21,7 +21,7 @@ class Header extends Component {
       <header id="home">
 	<VideoPlayer
         className="video bgvideo" 
-        src={video}
+        src={ "https://www.youtube.com/embed/m8pbOI-3Rmk"
         autoPlay={true}
         muted={true}
       />
