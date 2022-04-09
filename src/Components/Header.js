@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import VideoPlayer from "react-background-video-player";
+
 
 class Header extends Component {
   render() {
@@ -17,9 +19,14 @@ class Header extends Component {
 
     return (
       <header id="home">
-	<video className="bgvideo" loop autoPlay>
- 		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4" />
-	 </video>
+	<VideoPlayer
+        className="video"
+        src={
+          "https://assets.codepen.io/6093409/river.mp4"
+        }
+        autoPlay={true}
+        muted={true}
+      />
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
