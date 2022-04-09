@@ -89,7 +89,7 @@ class Contact extends Component {
 
                <div className="widget widget_tweets">
                 
-                  <a className="widget-title twitter-timeline" href="https://twitter.com/HarshitSK?ref_src=twsrc%5Etfw">Latest Tweets</a> 
+                  <a className="twitter-timeline" href="https://twitter.com/HarshitSK?ref_src=twsrc%5Etfw">Latest Tweets</a> 
 		  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	      </div>
             </aside>
