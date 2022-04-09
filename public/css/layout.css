@@ -181,6 +181,7 @@ ul#nav li.current a { color: #F06000; }
 
 .bgvideo {
 	z-index: -1;	
+	objectFit: 'cover';
 }
 /* ------------------------------------------------------------------ */
 /* c. About Section
