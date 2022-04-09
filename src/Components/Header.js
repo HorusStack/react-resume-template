@@ -44,7 +44,7 @@ class Header extends Component {
   top: 0;
   bottom: 0;
   z-index: -1;" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
- 		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+ 		 <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4" />
 	    </video>
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
