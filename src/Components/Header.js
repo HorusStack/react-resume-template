@@ -20,7 +20,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-	<video className='videoTag' autoPlay loop muted>
+	<video className='bgvideo' autoPlay loop muted>
     <source src={"https://player.vimeo.com/video/697664039?autoplay=1&loop=1&autopause=0&background=1&muted=1" } type='video/mp4' />
 </video>
       <nav id="nav-wrap">
