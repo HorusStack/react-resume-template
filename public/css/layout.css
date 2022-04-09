@@ -33,9 +33,6 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/bg_video_web.mp4) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -182,7 +179,9 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
-
+.bgvideo {
+	z-index: -1;	
+}
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */

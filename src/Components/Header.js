@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import VideoPlayer from "react-background-video-player";
+import videobg from "./bg_video_web.mp4";
+
 
 class Header extends Component {
   render() {
@@ -17,7 +20,12 @@ class Header extends Component {
 
     return (
       <header id="home">
-
+	<VideoPlayer
+        className="video bgvideo" 
+        src={ "https://player.vimeo.com/video/697664039?autoplay=1&loop=1&autopause=0&background=1&muted=1" }
+        autoPlay={true}
+        muted={true}
+      />
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -35,6 +43,7 @@ class Header extends Component {
       </nav>
 
       <div className="row banner">
+	    
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
