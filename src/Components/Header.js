@@ -20,7 +20,7 @@ class Header extends Component {
     return (
       <header id="home">
 	<VideoPlayer
-        className="video"
+        className="video bgvideo" 
         src={
           "https://assets.codepen.io/6093409/river.mp4"
         }
