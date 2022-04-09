@@ -180,8 +180,12 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
 .bgvideo {
-	z-index: -1;	
-	objectFit: 'cover';
+	object-fit: cover;
+ 	 width: 100vw;
+ 	 height: 100vh;
+ 	 position: fixed;
+ 	 top: 0;
+ 	 left: 0;
 }
 /* ------------------------------------------------------------------ */
 /* c. About Section
