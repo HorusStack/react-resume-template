@@ -20,9 +20,11 @@ class Header extends Component {
 
     return (
       <header id="home">
+
 	<video className='bgvideo' autoPlay loop muted preload>
     <source src={"https://www.youtube.com/embed/m8pbOI-3Rmk?autoplay=1&loop=1&autopause=0&muted=1&preload=1&origin=https://harshit.ga" } type='video/mp4' />
 </video>
+
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
